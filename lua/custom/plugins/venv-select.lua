@@ -14,3 +14,5 @@ return {
 		"<leader>vc", "<cmd>:VenvSelectCached<cr>"
 	}}
 }
+
+-- you need to do brew install fd to use this plugin
