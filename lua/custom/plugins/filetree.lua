@@ -13,7 +13,11 @@ return {
     sources = { "filesystem", "buffers", "git_status", "document_symbols" },
     open_files_do_not_replace_types = { "terminal", "Trouble", "qf", "Outline" },
     filesystem = {
-      visible = true, -- This is what you want: If you set this to `true`, all "hide" just mean "dimmed out"
+      filtered_items = {
+        visible = true, -- This is what you want: If you set this to `true`, all "hide" just mean "dimmed out"
+        hide_dotfiles = false,
+        hide_gitignored = true,
+      },
       bind_to_cwd = true, -- This option is very important to mimic the behaviour just like VsCode
       follow_current_file = { enabled = true },
       use_libuv_file_watcher = true,
