@@ -36,7 +36,7 @@ function M.setup()
 
       -- Download the image
       if download_image(opts.args, local_path) then
-        M.insert_image_markdown('./images/' .. filename)
+        M.insert_image_markdown('images/' .. filename)
       end
     end,
     {nargs = 1, complete = 'file'})
