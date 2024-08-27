@@ -591,7 +591,7 @@ local servers = {
   pyright = {
     python = {
       analysis = {
-        typeCheckingMode = "off",
+        typeCheckingMode = "basic",
       }
     }
   },
