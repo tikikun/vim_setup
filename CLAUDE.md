@@ -21,6 +21,7 @@ This is a Neovim configuration based on [Kickstart.nvim](https://github.com/nvim
 - **Syntax**: `nvim-treesitter/nvim-treesitter`
 - **Git**: `lewis6991/gitsigns.nvim`, `tpope/vim-fugitive`
 - **Symbols Outline**: `hedyhli/outline.nvim`
+- **AI Assistant**: `greggh/claude-code.nvim`
 
 ## LSP Servers
 
@@ -39,10 +40,15 @@ This is a Neovim configuration based on [Kickstart.nvim](https://github.com/nvim
 | `<leader>sG` | Live grep in git root (`:LiveGrepGitRoot`) |
 | `<leader>gf` | Git files |
 | `<leader>o` | Toggle symbols outline |
+| `<C-,>` | Toggle Claude Code |
+| `<leader>cC` | Claude Code continue |
+| `<leader>cR` | Claude Code resume |
 | `gd` | Go to definition |
 | `gr` | Go to references |
 | `K` | Hover documentation |
 | `[d` / `]d` | Previous/next diagnostic |
+| `<leader>ca` | Code action |
+| `:Format` | Format current buffer |
 
 ## Custom Commands
 
