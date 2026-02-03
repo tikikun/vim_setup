@@ -1,5 +1,7 @@
 return {
-  'simrat39/symbols-outline.nvim',
+  'hedyhli/outline.nvim',
+  keys = {
+    { '<leader>o', '<cmd>Outline<CR>', desc = 'Open symbols outline' },
+  },
   opts = {}
-  -- this is equalent to setup({}) function
 }
